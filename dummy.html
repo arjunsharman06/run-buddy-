@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <style>
+        *{
+            margin:0px;
+            padding: 0px;
+        }
+        .fixed-container{
+            width:200px;
+            height: 200px;
+            position: static;
+            background-color: darkred;
+            font-size: 20px;
+            font-weight: bold;
+
+        }
+        .relative-container{
+            width:600px;
+            height:800px;
+            background-color: chartreuse;
+            margin-left: 200px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .absolute-container{
+            width:200px;
+            height: 200px;
+            background-color: blue;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+    <body>
+        <div class="fixed-container">fixed container</div>
+        <div class="relative-container">relative container
+            <div class="absolute-container"> absolute container</div>
+        </div>        
+    </body>
+</html>
