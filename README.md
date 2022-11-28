@@ -32,6 +32,8 @@ A Landing page for a training company which shows the information about the serv
 * Responsive Design
 * HTML 5 
 * CSS 3.
+* Media Queries.
+* Flex-Box
 
 ## Installation: 
  
